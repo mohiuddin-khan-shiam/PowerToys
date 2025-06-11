@@ -34,6 +34,16 @@
             "console": "externalTerminal"
         },
         {
+            "name": "Debug Powertoys Settings(x64)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/x64/Debug/WinUI3Apps/PowerToys.Settings.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/x64/Debug/WinUI3Apps",
+            "console": "externalTerminal"
+        },
+        {
             "name": "Debug Workspaces Editor(arm64)",
             "type": "coreclr",
             "request": "launch",
